@@ -9,7 +9,7 @@ public class Formatura  implements Buffet{
 
     @Override
     public String getProduto() {
-        return " Salgado / Refrigerante / cerveja";
+        return "Salgado / Refrigerante / Cerveja";
     }
 
     @Override

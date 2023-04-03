@@ -21,7 +21,7 @@ public  abstract  class BuffetDecorator implements Buffet{
     public abstract String getProdutoEvento();
 
     public String getProduto() {
-        return this.buffet.getProduto() + "/" + this.getProdutoEvento();
+        return this.buffet.getProduto() + " / " + this.getProdutoEvento();
     }
 
     public void setProduto(String produto) {
