@@ -1,2 +1,5 @@
-package PACKAGE_NAME;public interface Buffet {
+public interface Buffet {
+
+    String getProduto();
+    float getCusto();
 }
